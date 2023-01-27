@@ -6,7 +6,9 @@
   "name": "Armor Curve",
   "description": "Linearizes the armor-effective max hp formula to buff early game armor.",
   "authors": [
-    "AkashiiKun"
+    "Jackiecrazy (Original mod)",
+    "AkashiiKun (1.18.2 port)",
+    "Andrew6rant (1.19.2 port)"
   ],
 
   "license": "CC0-1.0",
@@ -28,7 +30,10 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
-    "minecraft": "~1.18",
+    "minecraft": [
+      "1.19.x",
+      "1.18.x"
+    ],
     "java": ">=17",
     "cloth-config": "*"
   }
